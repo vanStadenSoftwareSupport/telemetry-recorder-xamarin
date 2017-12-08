@@ -1,5 +1,0 @@
-/Users/grantvanstaden/Development/Telematics/BuildDemo/telemetry_recorder_xamarin/TelematicsRecorder/TelematicsRecorder/bin/Debug/TelematicsRecorder.dll
-/Users/grantvanstaden/Development/Telematics/BuildDemo/telemetry_recorder_xamarin/TelematicsRecorder/TelematicsRecorder/bin/Debug/TelematicsRecorder.pdb
-/Users/grantvanstaden/Development/Telematics/BuildDemo/telemetry_recorder_xamarin/TelematicsRecorder/TelematicsRecorder/obj/Debug/TelematicsRecorder.csproj.CoreCompileInputs.cache
-/Users/grantvanstaden/Development/Telematics/BuildDemo/telemetry_recorder_xamarin/TelematicsRecorder/TelematicsRecorder/obj/Debug/TelematicsRecorder.dll
-/Users/grantvanstaden/Development/Telematics/BuildDemo/telemetry_recorder_xamarin/TelematicsRecorder/TelematicsRecorder/obj/Debug/TelematicsRecorder.pdb
