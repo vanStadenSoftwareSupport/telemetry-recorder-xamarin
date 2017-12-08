@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryRecorder.Common", "TelemetryRecorder.Common\TelemetryRecorder.Common.csproj", "{7C836FD8-BB60-45C8-8BD0-04F2B5809A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryRecorder.DroidBinding", "TelemetryRecorder.DroidBinding\TelemetryRecorder.DroidBinding.csproj", "{0121F26F-58B7-4A7F-82DC-C4A2B828B868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryRecorder.Droid", "TelemetryRecorder.Droid\TelemetryRecorder.Droid.csproj", "{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryRecorder.IOSBinding", "TelemetryRecorder.IOSBinding\TelemetryRecorder.IOSBinding.csproj", "{10319427-CF85-43AC-A5CF-C8EA00753CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.IOS", "Telemetry.IOS\Telemetry.IOS.csproj", "{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C836FD8-BB60-45C8-8BD0-04F2B5809A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C836FD8-BB60-45C8-8BD0-04F2B5809A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C836FD8-BB60-45C8-8BD0-04F2B5809A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C836FD8-BB60-45C8-8BD0-04F2B5809A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0121F26F-58B7-4A7F-82DC-C4A2B828B868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0121F26F-58B7-4A7F-82DC-C4A2B828B868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0121F26F-58B7-4A7F-82DC-C4A2B828B868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0121F26F-58B7-4A7F-82DC-C4A2B828B868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
