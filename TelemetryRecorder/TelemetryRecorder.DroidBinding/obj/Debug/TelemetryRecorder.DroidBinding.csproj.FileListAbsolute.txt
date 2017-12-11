@@ -1,0 +1,5 @@
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.DroidBinding/bin/Debug/TelemetryRecorder.DroidBinding.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.DroidBinding/bin/Debug/TelemetryRecorder.DroidBinding.pdb
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.DroidBinding/obj/Debug/TelemetryRecorder.DroidBinding.csproj.CoreCompileInputs.cache
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.DroidBinding/obj/Debug/TelemetryRecorder.DroidBinding.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.DroidBinding/obj/Debug/TelemetryRecorder.DroidBinding.pdb

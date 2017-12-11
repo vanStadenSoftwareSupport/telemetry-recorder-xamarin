@@ -1,0 +1,15 @@
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/bin/Release/TelemetryRecorder.Droid.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/bin/Release/TelemetryRecorder.Droid.pdb
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/bin/Release/TelemetryRecorder.Droid.apk
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/bin/Release/TelemetryRecorder.Droid-Signed.apk
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/bin/Release/TelemetryRecorder.Common.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/bin/Release/TelemetryRecorder.DroidBinding.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/bin/Release/TelemetryRecorder.DroidBinding.pdb
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/obj/Release/TelemetryRecorder.Droid.csprojResolveAssemblyReference.cache
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/obj/Release/TelemetryRecorder.Droid.csproj.CoreCompileInputs.cache
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/obj/Release/TelemetryRecorder.Droid.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/obj/Release/TelemetryRecorder.Droid.pdb
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/obj/Release/android/bin/TelemetryRecorder.Droid.apk
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/obj/Release/res/values/strings.xml
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/obj/Release/R.cs.flag
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Droid/obj/Release/uploadflags.txt

@@ -1,0 +1,3 @@
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Common/bin/Release/TelemetryRecorder.Common.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Common/obj/Release/TelemetryRecorder.Common.csproj.CoreCompileInputs.cache
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Common/obj/Release/TelemetryRecorder.Common.dll

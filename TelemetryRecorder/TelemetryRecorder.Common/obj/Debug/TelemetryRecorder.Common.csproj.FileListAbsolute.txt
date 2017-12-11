@@ -1,0 +1,5 @@
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Common/bin/Debug/TelemetryRecorder.Common.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Common/bin/Debug/TelemetryRecorder.Common.pdb
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Common/obj/Debug/TelemetryRecorder.Common.csproj.CoreCompileInputs.cache
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Common/obj/Debug/TelemetryRecorder.Common.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.Common/obj/Debug/TelemetryRecorder.Common.pdb

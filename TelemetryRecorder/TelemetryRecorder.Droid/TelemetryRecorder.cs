@@ -1,33 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
 using TelemetryRecorder.Common;
+using Android.Content;
 
 namespace TelemetryRecorder.Droid
 {
-    public class TelemetryRecorder: ITelemetryRecorder 
+    public class TelemetryRecorder : ITelemetryRecorder
     {
-        public bool IsStarted => throw new NotImplementedException();
+        Edu.Self.Telemetry_recorder.TelemetryRecorder _Recorder;
+
+        public TelemetryRecorder(Context appContext)
+        {
+            _Recorder = new Edu.Self.Telemetry_recorder.TelemetryRecorder(appContext);
+        }
+
+        public bool IsStarted => _Recorder.IsStarted;
 
         public List<Trip> Trips => throw new NotImplementedException();
 
         public string GetRegistration(string userHostAppId)
         {
-            throw new NotImplementedException();
+            return _Recorder.GetRegistration(userHostAppId);
         }
 
         public string Register(string userHostAppId)
         {
-            throw new NotImplementedException();
+            return _Recorder.Register(userHostAppId);
         }
 
         public void Start()
         {
-            throw new NotImplementedException();
+                _Recorder.Start();
         }
 
         public void Stop()
         {
-            throw new NotImplementedException();
+                _Recorder.Stop();
         }
     }
 }

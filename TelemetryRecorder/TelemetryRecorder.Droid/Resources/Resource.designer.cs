@@ -41,7 +41,10 @@ namespace TelemetryRecorder.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public static int library_name = 2130837504;
+			public static int app_name = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public static int library_name = 2130837505;
 			
 			static String()
 			{

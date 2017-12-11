@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="edu.self.telemetry_recorder">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="edu.self.telemetry_recorder.BuildConfig" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;edu.self.telemetry_recorder&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;debug&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="InMemoryTelemetryDataStore" static="false" visibility="">
+      <implements name="edu.self.telemetry_recorder.TelemetryDataStore" name-generic-aware="edu.self.telemetry_recorder.TelemetryDataStore"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRegistration" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="userHostAppId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTrips" native="false" return="java.util.List&lt;edu.self.telemetry_recorder.Trip&gt;" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isStartedStateRecorded" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="recordStartState" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="isStarted" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveRegistration" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="userHostAppId" type="java.lang.String"></parameter>
+        <parameter name="telemetryId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveTrip" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="newTrip" type="edu.self.telemetry_recorder.Trip"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="TelemetryDataStore" static="false" visibility="">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getRegistration" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTrips" native="false" return="java.util.List&lt;edu.self.telemetry_recorder.Trip&gt;" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isStartedStateRecorded" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="recordStartState" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="saveRegistration" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="saveTrip" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="edu.self.telemetry_recorder.Trip"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TelemetryDataStoreFactory" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TelemetryRecorder" static="false" visibility="public">
+      <implements name="edu.self.telemetry_recorder.TelemetryRecorderManager" name-generic-aware="edu.self.telemetry_recorder.TelemetryRecorderManager"></implements>
+      <constructor deprecated="not deprecated" final="false" name="TelemetryRecorder" static="false" type="edu.self.telemetry_recorder.TelemetryRecorder" visibility="public">
+        <parameter name="applicationContext" type="android.content.Context"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRegistration" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="userHostAppId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isStarted" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="register" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="userHostAppId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stop" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="TelemetryRecorderManager" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getRegistration" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isStarted" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="register" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="stop" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.app.Service" extends-generic-aware="android.app.Service" final="false" name="TelemetryService" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="TelemetryService" static="false" type="edu.self.telemetry_recorder.TelemetryService" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBind" native="false" return="android.os.IBinder" static="false" synchronized="false" visibility="public">
+        <parameter name="intent" type="android.content.Intent"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Trip" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromDatabaseEnry" native="false" return="edu.self.telemetry_recorder.Trip" static="true" synchronized="false" visibility="public">
+        <parameter name="databaseId" type="long"></parameter>
+        <parameter name="startTimeStamp" type="long"></parameter>
+        <parameter name="endTimeStamp" type="long"></parameter>
+        <parameter name="distanceInKilometers" type="long"></parameter>
+        <parameter name="durationInSeconds" type="long"></parameter>
+        <parameter name="fromSuburb" type="java.lang.String"></parameter>
+        <parameter name="toSuburb" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDatabaseId" native="false" return="long" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDistanceInKilometers" native="false" return="long" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDurationInSeconds" native="false" return="long" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEndTimeStamp" native="false" return="long" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFromSuburb" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStartTimeStamp" native="false" return="long" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getToSuburb" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="recordedNow" native="false" return="edu.self.telemetry_recorder.Trip" static="true" synchronized="false" visibility="public">
+        <parameter name="startTimeStamp" type="long"></parameter>
+        <parameter name="endTimeStamp" type="long"></parameter>
+        <parameter name="distanceInKilometers" type="long"></parameter>
+        <parameter name="durationInSeconds" type="long"></parameter>
+        <parameter name="fromSuburb" type="java.lang.String"></parameter>
+        <parameter name="toSuburb" type="java.lang.String"></parameter>
+      </method>
+    </class>
+  </package>
+</api>

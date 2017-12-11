@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{0121F26F-58B7-4A7F-82DC-C4A2B828B868}|Default">
   <MonoDevelop.Ide.ItemProperties.TelemetryRecorder.DroidBinding PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Telemetry.IOS/TelemetryRecorder.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelemetryRecorder.DroidDemo/MainActivity.cs">
     <Files>
-      <File FileName="TelemetryRecorder.Common/ITelemetryRecorder.cs" Line="13" Column="9" />
-      <File FileName="TelemetryRecorder.Common/Trip.cs" Line="41" Column="4" />
-      <File FileName="TelemetryRecorder.Droid/TelemetryRecorder.cs" Line="33" Column="2" />
-      <File FileName="Telemetry.IOS/TelemetryRecorder.cs" Line="6" Column="26" />
+      <File FileName="TelemetryRecorder.Droid/TelemetryRecorder.cs" Line="16" Column="9" />
+      <File FileName="packages/NuGet.Build.Packaging.0.2.0/build/NuGet.Build.Packaging.targets" Line="379" Column="3" />
+      <File FileName="TelemetryRecorder.DroidDemo/MainActivity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Demo" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
