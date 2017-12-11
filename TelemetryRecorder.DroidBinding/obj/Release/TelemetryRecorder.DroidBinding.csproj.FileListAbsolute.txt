@@ -3,3 +3,11 @@
 /Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.DroidBinding/obj/Release/TelemetryRecorder.DroidBinding.csproj.CoreCompileInputs.cache
 /Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.DroidBinding/obj/Release/TelemetryRecorder.DroidBinding.dll
 /Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/TelemetryRecorder.DroidBinding/obj/Release/TelemetryRecorder.DroidBinding.pdb
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/bin/Release/TelemetryRecorder.DroidBinding.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder/bin/Release/TelemetryRecorder.DroidBinding.pdb
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder.DroidBinding/bin/Release/TelemetryRecorder.DroidBinding.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder.DroidBinding/bin/Release/TelemetryRecorder.DroidBinding.pdb
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder.DroidBinding/obj/Release/TelemetryRecorder.DroidBinding.csprojResolveAssemblyReference.cache
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder.DroidBinding/obj/Release/TelemetryRecorder.DroidBinding.csproj.CoreCompileInputs.cache
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder.DroidBinding/obj/Release/TelemetryRecorder.DroidBinding.dll
+/Volumes/Data/Development/Youi/Build_Demo/telemetry_recorder_xamarin/TelemetryRecorder.DroidBinding/obj/Release/TelemetryRecorder.DroidBinding.pdb

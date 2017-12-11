@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>TelemeteryRecorder</id>
+        <version>0.0.1</version>
+        <authors>Grant van Staaden</authors>
+        <projectUrl>https://github.com/vanStadenSoftwareSupport/telemetry-recorder-xamarin</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Xamarin wrapper Telemetry Recorder Library DEMO</description>
+        <summary>A Demo library</summary>
+        <tags>portable</tags>
+        <releaseNotes>
+		Initial version.
+        </releaseNotes>
+    </metadata>
+    <files>
+        <file src="TelemetryRecorder/bin/Release/**/TelemetryRecorder*" target="lib" />
+    </files>
+</package>
