@@ -7,12 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryRecorder.DroidBind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryRecorder.Droid", "TelemetryRecorder.Droid\TelemetryRecorder.Droid.csproj", "{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryRecorder.IOSBinding", "TelemetryRecorder.IOSBinding\TelemetryRecorder.IOSBinding.csproj", "{10319427-CF85-43AC-A5CF-C8EA00753CAE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.IOS", "Telemetry.IOS\Telemetry.IOS.csproj", "{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryRecorder.DroidDemo", "TelemetryRecorder.DroidDemo\TelemetryRecorder.DroidDemo.csproj", "{FA14BFD9-0531-4135-A848-AF6614772E07}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,21 +32,6 @@ Global
 		{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}.Demo|Any CPU.ActiveCfg = Release|Any CPU
 		{FEEC3B1F-7CC3-4C58-BDFF-CB785D95A9D9}.Demo|Any CPU.Build.0 = Release|Any CPU
-		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10319427-CF85-43AC-A5CF-C8EA00753CAE}.Demo|Any CPU.ActiveCfg = Demo|Any CPU
-		{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA68D3B4-5A6E-4511-A41D-A3C26BB2C8B6}.Demo|Any CPU.ActiveCfg = Demo|Any CPU
-		{FA14BFD9-0531-4135-A848-AF6614772E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA14BFD9-0531-4135-A848-AF6614772E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA14BFD9-0531-4135-A848-AF6614772E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA14BFD9-0531-4135-A848-AF6614772E07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA14BFD9-0531-4135-A848-AF6614772E07}.Demo|Any CPU.ActiveCfg = Release|Any CPU
-		{FA14BFD9-0531-4135-A848-AF6614772E07}.Demo|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
